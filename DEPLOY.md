@@ -113,3 +113,10 @@ Flask REST APIs are available at `http://PUBLIC_IPV4_ADDRESS:53795/flask/*`
 `PUBLIC_IPV4_ADDRESS` is avaible in `EC2>Instances>THIS_INSTANCE`
 
 ![public IPv4](./public/public_ipv4.png)
+
+Special THANKS to Mohammad Oghli for his
+[post](https://www.linkedin.com/pulse/deploying-multi-container-docker-compose-application-aws-oghli/),
+Vincent Stevenson for his [tutorial](https://www.youtube.com/watch?v=qNIniDftAcU&t=607s) on deployment of dockerised
+applications on AWS EC2.
+
+Another special thanks to ChatGPT my best friend
