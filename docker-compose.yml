@@ -9,9 +9,11 @@ services:
       - ISC_CPF_MERGE_FILE=/irisdev/app/merge.cpf
     command: --check-caps false
     ports:
-      - 1972
+      - 80:53795
+      - 443:53795
+      - 1972:1972
       - 53795:52773
       - 5000:5000
-      - 53773
+      - 53773:53773
     volumes:
       - ./:/irisdev/app
