@@ -11,11 +11,11 @@
    - For `Network Settings`, check all checkboxes to allow SSH, HTTP and HTTPS traffic
    - Depending on estimated storage size, configure storage. 8 GiB is sufficiently for this prototype
    - Click on `Launch Instance` to get the instance running.
-3. After the instance state is updated to `Running`, click on the `Instance ID` link.
-4. Scroll down and navigate to the `Secruity` tab
-5. Click into the security group listed under `Inbound rules`
-6. Click on the `Security group ID` and `Edit inbound rules`
-7. Add a new inbound rule to allow all incoming tcp traffic from port `53795`
+4. After the instance state is updated to `Running`, click on the `Instance ID` link.
+5. Scroll down and navigate to the `Secruity` tab
+6. Click into the security group listed under `Inbound rules`
+7. Click on the `Security group ID` and `Edit inbound rules`
+8. Add a new inbound rule to allow all incoming tcp traffic from port `53795`
    ![inbound rules](./public/inbound-rule.png)
 
 ## Connecting to Remote Server
